@@ -1,0 +1,111 @@
+/*
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+   For a screen < 720px, this CSS will be read
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+*/
+body {
+  background-color: #DEF2F1;
+  font-family: 'Open Sans', sans-serif;
+  color: #17252A;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+h3 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 11px;
+}
+
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: #FEFFFF;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 640px;
+  /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+}
+
+/*img {
+  width: 10%;
+  height: 10%;
+}
+*/
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.social-links {
+  font-size: 60px;
+  margin: 0px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #3AAFA9;
+}
+
+.social-links a:hover {
+  color: #2B7A7B;
+}
+
+.album-cover {
+  width: 200px;
+  height: 200px;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+}
+
+/*
+width @ 50cpl = 50*(14/1.618) = 433px
+*/
